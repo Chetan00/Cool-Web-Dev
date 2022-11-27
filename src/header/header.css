@@ -1,0 +1,18 @@
+.App-header {
+    color: #FCE2DB;
+    padding-top:30px;
+  }
+
+.header-subtext{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+.content-body-container{
+  padding-bottom: 25px;
+}
+
+.heading {
+  margin-bottom:10px;
+}

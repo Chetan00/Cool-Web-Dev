@@ -1,0 +1,27 @@
+.content-head-sub-container{
+    background: #F0CAA3;
+    color:#000000;
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 5px 20px 10px 0;
+}
+
+.body-text{
+    margin:5px;
+}
+
+a{
+    text-decoration: none;
+    color:#3B185F
+}
+
+@media (max-width: 480px) {
+    .content-head-sub-container{
+        float: none;
+        position: static;
+        width: auto;
+    }
+  }
