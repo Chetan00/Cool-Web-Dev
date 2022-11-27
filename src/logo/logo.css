@@ -8,6 +8,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    padding-bottom: 40px;
     /* text-shadow: 3px 3px 0px #d2d2d22e; */
 }
 

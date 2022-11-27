@@ -3,16 +3,17 @@ a {
 }
 
 .footer-container {
-    font-size: calc(3px + 2vmin);
-    text-align: center;
+    font-size: 10px;
+    /* text-align: center; */
     background-color: #282A3A;
     color:#EEEEEE;
-    padding: 25px 25px 25px 25px;
+    padding: 25px;
+    padding-left: 19%;
 }
 
 div#horizontal-list {
 	padding-top: 20px;
-    font-size: 22px;
+    font-size: 15px;
 	}
 	div#horizontal-list a{
 		display: inline;
@@ -35,12 +36,13 @@ div#horizontal-list {
 
 .footer-copyrights{
     padding-top: 10px;
-    font-size:17px;
+    font-size:10px;
     color: #EFF5F5
 }
 
 @media (max-width: 480px) {
     .footer-container {
+        padding:5%;
         text-align:left;
     }
         div#horizontal-list a{

@@ -12,8 +12,8 @@ const Footer = () => {
                 <a href="mailto:agrawalChetan78@gmail.com">{'Contact'}</a>
             </div>
             <div className='footer-copyrights'>
-                <h4><p>{'Website & Name © 2022  '}<span className="coolwebdev"><a href='www.coolwebdev.com'>{'coolwebdev.com'}</a></span></p>
-                <p>{'Powered by Netlify & Github'}</p></h4>
+                <p>{'Website & Name © 2022  '}<span className="coolwebdev"><a href='www.coolwebdev.com'>{'coolwebdev.com'}</a></span></p>
+                <p>{'Powered by Netlify & Github'}</p>
             </div>
         </div>
         

@@ -8,9 +8,8 @@ const Header = () => {
     return (
         <div className="App-header">
             <Logo />
-            <h4 className='heading'>{'Hey there! 👋'}</h4>
-            <p className='header-subtext'>{'Your one stop to learn Web development.'}</p>
-            <ContentHeader contentHeader='Skill Based' className='content-head-tag' />
+            <h2 className='heading'>{'Hey there! 👋'}</h2>
+            <p className='header-subtext'>{'Cool Web Dev is your one stop to learn complete web development end to end. It will provide you step by step guide on how to become a cool web dev.'}</p>
             <ContentHeader contentHeader='Frontend Development' className='content-head-tag' />
             <div className="content-body-container">
                 <ContentBody contentHeader='Internet' contentSubText='How does the Internet work. What is HTTP and Browser and how does it work.'/>
@@ -25,6 +24,14 @@ const Header = () => {
                 <ContentBody contentHeader='GraphQL' contentSubText='A query language for APIs and a runtime for fulfilling those queries with your existing data.' />
                 <ContentBody contentHeader='Mobile Applications' contentSubText='Javascript developers can build Mobile Apps using React Native, Flutter etc.' />
                 <ContentBody contentHeader='Desktop Applications' contentSubText='Javascript developers can build Mobile Apps using Electron NodeGUI etc.' />
+            </div>
+            <ContentHeader contentHeader='Skill Based' className='content-head-tag' />
+            <div className="content-body-container">
+                <ContentBody contentHeader='React Js' contentSubText='How does the Internet work. What is HTTP and Browser and how does it work.'/>
+                <ContentBody contentHeader='Node Js' contentSubText='Learn the Basics, Semantic HTML, Forms & Validations and SEO basics.'/>
+                <ContentBody contentHeader='Next Js' contentSubText='Learn the Basics, Semantic HTML, Forms & Validations and SEO basics.'/>
+                <ContentBody contentHeader='Express Js' contentSubText='Learn the Basics, Semantic HTML, Forms & Validations and SEO basics.'/>
+                <ContentBody contentHeader='Vue' contentSubText='Learn the Basics, Semantic HTML, Forms & Validations and SEO basics.'/>
             </div>
         </div>
         
