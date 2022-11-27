@@ -5,10 +5,10 @@ const Footer = () => {
     return (
         <div className="footer-container">
             <div id="horizontal-list">
-                <a href="#">{'Home'}</a>
-                <a href="#">{'About'}</a>
-                <a href="#">{'FAQ'}</a>
-                <a href="#">{'Github'}</a>
+                <a href="www.coolwebdev.com">{'Home'}</a>
+                <a href="www.coolwebdev.com">{'About'}</a>
+                <a href="www.coolwebdev.com">{'FAQ'}</a>
+                <a href="www.coolwebdev.com">{'Github'}</a>
                 <a href="mailto:agrawalChetan78@gmail.com">{'Contact'}</a>
             </div>
             <div className='footer-copyrights'>
